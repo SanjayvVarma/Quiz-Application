@@ -24,7 +24,9 @@ const QuizApp = () => {
     useEffect(() => {
         async function fetchQuestions() {
             try {
-                const response = await fetch("https://opentdb.com/api.php?amount=10&type=multiple");
+                const response = await fetch(
+                    "https://opentdb.com/api.php?amount=10&type=multiple"
+                );
                 const data = await response.json();
                 if (data.results) {
                     setQuestions(data.results);
@@ -45,9 +47,11 @@ const QuizApp = () => {
             if (timer > 0) {
                 setTimer(timer - 1);
             } else {
+
                 handleNextQuestion();
             }
         }, 1000);
+
 
         return () => clearInterval(timerId);
     }, [timer, handleNextQuestion]);
@@ -60,6 +64,7 @@ const QuizApp = () => {
 
     const handleAnswerClick = (isCorrect) => {
         if (isCorrect) {
+
             setScore(score + 1);
         }
 
