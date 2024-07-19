@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://t3.ftcdn.net/jpg/03/23/12/42/360_F_323124237_SfGqpttZqU2mrMm61VPSWA2tKvc95l9O.jpg");
+  background-color: #0c437e;
   background-size: cover;
 }
 
@@ -8,7 +8,7 @@ body {
   margin: 6rem auto;
   text-align: center;
   padding: 20px;
-  background-color: #038e3fc8;
+  background-color: #c06dc2c8;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -48,13 +48,13 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  background-color: #007bff;
+  background-color: #818d9a;
   color: #fff;
   transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #0c437e;
 }
 
 .timer {
