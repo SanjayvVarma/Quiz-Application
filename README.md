@@ -28,5 +28,5 @@ Ensure you have Node.js and npm installed on your machine.
    ```sh
    git clone https://github.com/SanjayvVarma/Quiz-Application.git
 
-   cd quiz-app-react-vite
+   cd Quiz-Application
 
