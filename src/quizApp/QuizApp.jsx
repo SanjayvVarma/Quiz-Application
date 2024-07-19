@@ -99,6 +99,7 @@ const QuizApp = () => {
                 <ul>
                     {incorrectAnswers.map((answer, index) => (
                         <li key={index}>
+
                             <button onClick={() => handleAnswerClick(false)}>{answer}</button>
                         </li>
                     ))}
