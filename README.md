@@ -2,8 +2,7 @@
 
 This project is a simple quiz application built using React and Vite.
 
-### Hosted Link :-
-  [QuizApp.com](https://quiz-application-three-ruddy.vercel.app/)
+### Hosted Link :- [QuizApp.com](https://quiz-application-three-ruddy.vercel.app/)
 
 ## Features
 

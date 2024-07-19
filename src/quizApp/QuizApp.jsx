@@ -81,12 +81,10 @@ const QuizApp = () => {
         );
     }
 
-
     const currentQuestion = questions[currentQuestionIndex];
 
-
     if (!currentQuestion) {
-        return <div className="loading__main">Loading...</div>;
+        return <div className="container"><div className="loading__main"></div></div>;
     }
 
 
@@ -99,13 +97,11 @@ const QuizApp = () => {
                 <h2>Question {currentQuestionIndex + 1}</h2>
                 <p>{currentQuestion.question}</p>
                 <ul>
-
                     {incorrectAnswers.map((answer, index) => (
                         <li key={index}>
                             <button onClick={() => handleAnswerClick(false)}>{answer}</button>
                         </li>
                     ))}
-
                     <li>
                         <button onClick={() => handleAnswerClick(true)}>
                             {currentQuestion.correct_answer}
