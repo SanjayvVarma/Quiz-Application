@@ -30,3 +30,9 @@ Ensure you have Node.js and npm installed on your machine.
 
    cd Quiz-Application
 
+   npm install 
+
+   npm run dev
+
+http://localhost:5173
+
